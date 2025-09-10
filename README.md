@@ -6,6 +6,12 @@ Welcome to **Alpine Workflow**, a project dedicated to transforming a legacy Lin
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/SpringWu5/neovim_config/main/UI.png" alt="The Alpine Neovim UI" width="800">
+  <br>
+  <em>The recommended "Alpine Neovim" interface.</em>
+</div>
+
 ## ✨ Core Philosophy & Key Features
 
 The core philosophy is simple: **"No compromises."** We refuse to let an outdated OS dictate our productivity.
