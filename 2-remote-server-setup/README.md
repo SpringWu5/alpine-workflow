@@ -1,6 +1,3 @@
-### **`2-remote-server-setup/README.md` (草稿)**
-
-```markdown
 # Part 2: Forging the Remote Server Environment
 
 Welcome to the core of the **Alpine Workflow**. This guide contains all the necessary scripts and instructions to transform a standard, legacy Linux server (like CentOS 7) into a modern, AI-ready development powerhouse for Neovim.
@@ -12,8 +9,6 @@ Before you begin, please ensure the following prerequisite is met on your remote
 *   **Conda is installed**: You must have a working installation of Miniconda or Anaconda. If not, please [install Miniconda](https://docs.conda.io/projects/miniconda/en/latest/index.html) first.
 
 All scripts in this directory are designed to be run from this `2-remote-server-setup/` directory.
-
----
 
 ## 🚀 The Main Quest: Installation Workflow
 
@@ -41,8 +36,8 @@ Run the Git installation script. After completion, you will need to **re-login**
 
 ```bash
 chmod +x install_local_git.sh
+scl enable devtoolset-9 bash
 ./install_local_git.sh
-
 # Verify with `git --version`, it should be 2.39.2 or newer.
 ```
 
